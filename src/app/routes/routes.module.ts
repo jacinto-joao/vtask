@@ -9,10 +9,10 @@ import {routes} from './routes';
 
 @NgModule({
     imports: [
+        SharedModule,
         RouterModule.forRoot(routes),
-        SharedModule
     ],
-    exports: [],
+    exports: [RouterModule],
     declarations: [],
     providers: [],
 })
