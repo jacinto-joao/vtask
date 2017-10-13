@@ -4,9 +4,9 @@ import { Component, OnInit } from '@angular/core';
     selector: 've-layouts',
     template: `
     <!-- top navbar-->
-    <ve-header class="topnavbar-wrapper"></ve-header>
+    <ve-header></ve-header>
     <!-- Main section-->
-    <main id="main">
+    <main id="container">
       <!-- Page section -->
       <router-outlet></router-outlet>
       <!-- Page footer-->
